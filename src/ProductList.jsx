@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import './ProductList.css';
 import CartItem from './CartItem';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { addItem } from '../features/CartSlice'; // Adjust path as needed
 
 function ProductList() {
     const [showCart, setShowCart] = useState(false);
     const [addedToCart, setAddedToCart] = useState({});
     const dispatch = useDispatch();
+    const cart = useSelector(state => state.cart.items); // Retrieve items in cart from Redux store
 
     const plantsArray = [
         {
@@ -41,7 +42,7 @@ function ProductList() {
     };
 
     const handleAddToCart = (plant) => {
-        dispatch(addItem(plant));
+        dispatch(addItem(plant)); // Dispatch addItem to add the plant to the cart
         setAddedToCart((prevState) => ({
             ...prevState,
             [plant.name]: true,
@@ -64,7 +65,7 @@ function ProductList() {
                 </div>
                 <div>
                     <a href="#" onClick={handlePlantsClick}>Plants</a>
-                    <a href="#" onClick={handleCartClick}>Cart</a>
+                    <a href="#" onClick={handleCartClick}>Cart ({cart.reduce((total, item) => total + item.quantity, 0)})</a> {/* Show total quantity in cart */}
                 </div>
             </div>
 
