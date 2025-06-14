@@ -1,0 +1,92 @@
+{
+  "overview": ["intro", "verse_1", "chorus_1", "verse_2", "chorus_2", "bridge", "final_chorus", "outro"],
+  "intro": [
+    { "start_time": 0.5, "end_time": 0.6 },
+    { "start_time": 1.0, "end_time": 1.1 },
+    { "start_time": 1.5, "end_time": 1.6 },
+    { "start_time": 2.0, "end_time": 2.1 }
+  ],
+  "verse_1": [
+    { "start_time": 3.0, "end_time": 3.1 },
+    { "start_time": 3.5, "end_time": 3.6 },
+    { "start_time": 4.0, "end_time": 4.1 },
+    { "start_time": 4.5, "end_time": 4.6 },
+    { "start_time": 5.0, "end_time": 5.1 },
+    { "start_time": 5.5, "end_time": 5.6 },
+    { "start_time": 6.0, "end_time": 6.1 },
+    { "start_time": 6.5, "end_time": 6.6 }
+  ],
+  "chorus_1": [
+    { "start_time": 8.0, "end_time": 8.1 },
+    { "start_time": 8.25, "end_time": 8.35 },
+    { "start_time": 8.5, "end_time": 8.6 },
+    { "start_time": 8.75, "end_time": 8.85 },
+    { "start_time": 9.0, "end_time": 9.1 },
+    { "start_time": 9.5, "end_time": 9.6 },
+    { "start_time": 10.0, "end_time": 10.1 },
+    { "start_time": 10.5, "end_time": 10.6 },
+    { "start_time": 11.0, "end_time": 11.1 },
+    { "start_time": 11.25, "end_time": 11.35 },
+    { "start_time": 11.5, "end_time": 11.6 },
+    { "start_time": 11.75, "end_time": 11.85 },
+    { "start_time": 12.0, "end_time": 12.1 }
+  ],
+  "verse_2": [
+    { "start_time": 14.0, "end_time": 14.1 },
+    { "start_time": 14.5, "end_time": 14.6 },
+    { "start_time": 15.0, "end_time": 15.1 },
+    { "start_time": 15.5, "end_time": 15.6 },
+    { "start_time": 16.0, "end_time": 16.1 },
+    { "start_time": 16.5, "end_time": 16.6 },
+    { "start_time": 17.0, "end_time": 17.1 },
+    { "start_time": 17.5, "end_time": 17.6 }
+  ],
+  "chorus_2": [
+    { "start_time": 19.0, "end_time": 19.1 },
+    { "start_time": 19.25, "end_time": 19.35 },
+    { "start_time": 19.5, "end_time": 19.6 },
+    { "start_time": 19.75, "end_time": 19.85 },
+    { "start_time": 20.0, "end_time": 20.1 },
+    { "start_time": 20.5, "end_time": 20.6 },
+    { "start_time": 21.0, "end_time": 21.1 },
+    { "start_time": 21.5, "end_time": 21.6 },
+    { "start_time": 22.0, "end_time": 22.1 },
+    { "start_time": 22.25, "end_time": 22.35 },
+    { "start_time": 22.5, "end_time": 22.6 },
+    { "start_time": 22.75, "end_time": 22.85 },
+    { "start_time": 23.0, "end_time": 23.1 }
+  ],
+  "bridge": [
+    { "start_time": 25.0, "end_time": 25.1 },
+    { "start_time": 26.0, "end_time": 26.1 },
+    { "start_time": 27.0, "end_time": 27.1 },
+    { "start_time": 28.0, "end_time": 28.1 }
+  ],
+  "final_chorus": [
+    { "start_time": 30.0, "end_time": 30.1 },
+    { "start_time": 30.2, "end_time": 30.3 },
+    { "start_time": 30.4, "end_time": 30.5 },
+    { "start_time": 30.6, "end_time": 30.7 },
+    { "start_time": 31.0, "end_time": 31.1 },
+    { "start_time": 31.2, "end_time": 31.3 },
+    { "start_time": 31.4, "end_time": 31.5 },
+    { "start_time": 31.6, "end_time": 31.7 },
+    { "start_time": 32.0, "end_time": 32.1 },
+    { "start_time": 32.25, "end_time": 32.35 },
+    { "start_time": 32.5, "end_time": 32.6 },
+    { "start_time": 32.75, "end_time": 32.85 },
+    { "start_time": 33.0, "end_time": 33.1 },
+    { "start_time": 33.25, "end_time": 33.35 },
+    { "start_time": 33.5, "end_time": 33.6 },
+    { "start_time": 33.75, "end_time": 33.85 },
+    { "start_time": 34.0, "end_time": 34.1 }
+  ],
+  "outro": [
+    { "start_time": 36.0, "end_time": 36.1 },
+    { "start_time": 37.0, "end_time": 37.1 },
+    { "start_time": 38.0, "end_time": 38.1 },
+    { "start_time": 39.0, "end_time": 39.1 },
+    { "start_time": 40.0, "end_time": 40.1 }
+  ]
+}
+
